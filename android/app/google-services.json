@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "463316457684",
+    "project_id": "video-1d77d",
+    "storage_bucket": "video-1d77d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463316457684:android:e352cd90d62a9580784341",
+        "android_client_info": {
+          "package_name": "com.example.videotiktok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463316457684-rro1c9gughdl3fjtmhd4dtbdbhvad6cq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.videotiktok",
+            "certificate_hash": "76b672f318801bc358b2a8d8f74eca86a3990dd1"
+          }
+        },
+        {
+          "client_id": "463316457684-k28emsvvsgmk6isgrff2geihavdmle2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqAnUFK6BZs-NsirQ_nX6VSg98jhjC0bI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463316457684-k28emsvvsgmk6isgrff2geihavdmle2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

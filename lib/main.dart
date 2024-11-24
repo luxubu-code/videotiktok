@@ -1,3 +1,4 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -6,9 +7,16 @@ import 'package:videotiktok/data/repositories/video_repository.dart';
 import 'package:videotiktok/presentation/cubits/video_cubit.dart';
 import 'package:videotiktok/presentation/screens/home/home.dart';
 
-void main() {
+import 'di/service_locator.dart';
+import 'firebase_options.dart';
+
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await setupLocator();
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(MyApp());
 }
 

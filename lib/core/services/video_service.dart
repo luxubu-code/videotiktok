@@ -27,7 +27,6 @@ class VideoService {
       print('HTTP Client error: ${e.message}');
       throw Exception('HTTP Client error: ${e.message}');
     } catch (e) {
-      // Lỗi không xác định
       print('Unexpected error: $e');
       throw Exception('fetch videos Unexpected error: $e');
     }
